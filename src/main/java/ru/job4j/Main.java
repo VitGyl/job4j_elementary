@@ -12,7 +12,7 @@ public class Main {
 
         //height это рост
         //по задаче измерение в метрах, поэтому float с возможностью десятичных дробей
-        float height = 170;
+        float height = (float) 1.70;
 
         //bricksAmount это количество кирпичей для постройки дома (небольшой одноэтажный дом площадью 100м2)
         short bricksAmount;
@@ -25,9 +25,9 @@ public class Main {
         double spaceDistance = 10e32;
 
         //workLicense это разрешение на работу (рассматриваем всего 2 значения - или есть разрешение или его нет)
-        //boolean workLicense = false;
+        boolean workLicense = false;
 
         //fileSize это размер файла (измерять будем в байтах)
-        double fileSize = 36589;
+        long fileSize = 36589;
     }
 }

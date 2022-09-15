@@ -17,6 +17,8 @@ public class Calculator {
         System.out.println("sixDivTwo="+sixDivTwo+ "\n" + "fiveMinusTwo="+fiveMinusTwo+ "\n" +
                 "fourTimeTwo="+fourTimeTwo);
 
+        int result3 = ru.job4j.MathFunc.func1(100);
+        System.out.println("result3="+result3);
     }
 
 }
