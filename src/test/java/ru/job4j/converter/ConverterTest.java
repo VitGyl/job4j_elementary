@@ -10,7 +10,7 @@ public class ConverterTest {
         float in = 140;
         float expected = 2;
         float out = Converter.rubleToEuro(in);
-        float eps = 0.0001f;
+        float eps = 0.001f;
         Assert.assertEquals(expected, out, eps);
     }
 
