@@ -9,6 +9,17 @@ public class MathCalculator {
     }
 
     public static void main(String[] args) {
-        System.out.println("Результат расчета равен: " + sumAndMultiply(10, 20));
+        System.out.println("Результат расчета равен: " + sumAndMultiply(10, 20) + "\n"
+                + "Результат суммы разности и деления равен: " + difAndDiv(10, 20) + "\n"
+                + "Результат суммы всех четырех операций равен: " + theSumOfAllFourCalc(10, 20));
+    }
+
+    public static double difAndDiv(double first, double second) {
+        return MathFunction.difference(first, second)
+                + MathFunction.division(first, second);
+    }
+
+    public static double theSumOfAllFourCalc(double first, double second) {
+        return MathCalculator.sumAndMultiply(first, second) + MathCalculator.difAndDiv(first, second);
     }
 }
