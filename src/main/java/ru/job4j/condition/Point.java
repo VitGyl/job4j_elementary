@@ -13,6 +13,6 @@ public class Point {
         System.out.println("result (0, 0) to (2, 0) " + result);
         double result2 = Point.distance(1, 2, 3, 4);
         String result2String = String.format("%.2f", result2);
-        System.out.println("result2 (1, 2) to (3, 4) " + result2String);
+        System.out.println("result2 (1, 2)  to  (3, 4) " + result2String);
     }
 }
