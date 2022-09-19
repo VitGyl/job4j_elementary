@@ -18,7 +18,7 @@ public class Calculator {
                 + "fourTimeTwo= " + fourTimeTwo);
 
         int result3 = ru.job4j.MathFunc.func1(100);
-        System.out.println("result3=" + result3);
+        System.out.println("result3= " + result3);
         short s = 1501;
         char c = (char) s;
         double d = c;
