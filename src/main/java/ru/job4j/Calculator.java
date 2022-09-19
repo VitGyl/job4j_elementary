@@ -22,7 +22,7 @@ public class Calculator {
         short s = 1501;
         char c = (char) s;
         double d = c;
-        System.out.println(" i " + d);
+        System.out.println("i " + d);
 
     }
 
