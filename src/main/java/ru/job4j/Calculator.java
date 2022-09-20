@@ -7,15 +7,15 @@ public class Calculator {
         int onePlusTwo = one + two;
         System.out.println(onePlusTwo);
 
-        int six             = 6;
-        int four            = 4;
-        int five            = 5;
-        int sixDivTwo       = six / two;
-        int fiveMinusTwo    = five - two;
-        int fourTimeTwo     = four * two;
+        int six = 6;
+        int four = 4;
+        int five = 5;
+        int sixDivTwo = six / two;
+        int fiveMinusTwo = five - two;
+        int fourTimeTwo = four * two;
 
-        System.out.println("sixDivTwo= " + sixDivTwo + "\n" + "fiveMinusTwo= " + fiveMinusTwo + "\n"
-                + "fourTimeTwo= " + fourTimeTwo);
+        System.out.println("sixDivTwo= " + sixDivTwo + System.lineSeparator() + "fiveMinusTwo= " + fiveMinusTwo
+                + System.lineSeparator() + "fourTimeTwo= " + fourTimeTwo);
 
         int result3 = ru.job4j.MathFunc.func1(100);
         System.out.println("result3= " + result3);
