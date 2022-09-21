@@ -6,8 +6,6 @@ public class Max {
     }
 
     static int maxOfTwo(int left, int right) {
-        int result = left > right ? left : right;
-        System.out.println("result = " + result);
-        return result;
+        return left > right ? left : right;
     }
 }
