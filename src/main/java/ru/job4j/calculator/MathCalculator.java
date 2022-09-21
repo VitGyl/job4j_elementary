@@ -18,6 +18,6 @@ public class MathCalculator {
     }
 
     public static double theSumOfAllFourCalc(double first, double second) {
-        return MathCalculator.sumAndMultiply(first, second) + MathCalculator.difAndDiv(first, second);
+        return sumAndMultiply(first, second) + difAndDiv(first, second);
     }
 }
